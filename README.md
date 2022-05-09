@@ -29,3 +29,16 @@ de renda fixa e variável são tributados pelo IR, nestes casos deverá existir 
 – Cada peça deverá ter o seu pé-direito de forma que se possa calcular o volume da mesma; <br>
 – Peças deverão ter identificação; <br>
 – O imóvel deverá possuir identificação, tipo de uso (comercial, residencial), proprietário e endereço;</p> <br>
+
+<p>+ </p>
+
+<p> – Altere o exercício 2 e utilize Map para representar o
+conjunto de contas existente no banco associado a cada
+identificador de conta. <br>
+– Desenvolva uma classe que crie 10.000 contas, inserindo
+uma a uma no banco e depois percorra estas contas; <br>
+– Busque cada uma destas contas com o método get(),
+enquanto percorre novamente o mapa; <br>
+– Contabilize o tempo gasto para inserir, percorrer o Map e
+buscar todos os objetos em cada tipo de implementação
+diferente do Map. <p>
