@@ -17,19 +17,6 @@ de renda fixa e variável são tributados pelo IR, nestes casos deverá existir 
 – As classes a serem testadas devem ser carregadas a partir de um arquivo jar carregado em runtime.<br>
   • Obs.: utilize JFileChooser para seleção do arquivo jar no início da execução.</p>
 
-
-
-  <h2>Exercício 2:</h2>
-
-<p>Modelar e implementar um sistema de representação de um imóvel juntamente com o cálculo de área total construída do imóvel, bem como o seu volume interno; <br>
-– O imóvel deverá ter um conjunto de peças, sendo que cada uma deverá calcular a sua área com base nas formas geométricas que compõem a mesma; <br>
-– Deverão existir as seguintes formas:<br>
-• (semi)Círculo, quadrado, losango, retângulo e triângulo; <br>
-• Cada forma deve contar com as medidas necessárias para implementar um método que calcula a sua área; <br>
-– Cada peça deverá ter o seu pé-direito de forma que se possa calcular o volume da mesma; <br>
-– Peças deverão ter identificação; <br>
-– O imóvel deverá possuir identificação, tipo de uso (comercial, residencial), proprietário e endereço;</p> <br>
-
 <p>+ </p>
 
 <p> – Altere o exercício 2 e utilize Map para representar o
@@ -42,3 +29,15 @@ enquanto percorre novamente o mapa; <br>
 – Contabilize o tempo gasto para inserir, percorrer o Map e
 buscar todos os objetos em cada tipo de implementação
 diferente do Map. <p>
+  
+
+  <h2>Exercício 2:</h2>
+
+<p>Modelar e implementar um sistema de representação de um imóvel juntamente com o cálculo de área total construída do imóvel, bem como o seu volume interno; <br>
+– O imóvel deverá ter um conjunto de peças, sendo que cada uma deverá calcular a sua área com base nas formas geométricas que compõem a mesma; <br>
+– Deverão existir as seguintes formas:<br>
+• (semi)Círculo, quadrado, losango, retângulo e triângulo; <br>
+• Cada forma deve contar com as medidas necessárias para implementar um método que calcula a sua área; <br>
+– Cada peça deverá ter o seu pé-direito de forma que se possa calcular o volume da mesma; <br>
+– Peças deverão ter identificação; <br>
+– O imóvel deverá possuir identificação, tipo de uso (comercial, residencial), proprietário e endereço;</p> <br>
