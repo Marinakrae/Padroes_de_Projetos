@@ -1,0 +1,31 @@
+# Padroes_de_Projetos
+Exercícios desenvolvidos na disciplina de Padrões de Projeto
+
+*Exercício 1:
+
+Crie uma classe banco que armazene um conjunto de contas e forneça métodos que permitam que sejam feitos criações de conta, exclusão de contas, saques (uma conta corrente só pode fazer saques desde que o valor não
+exceda o limite de saque -limite + saldo-), depósitos, emissão de saldo e extrato e transferência entre contas.
+– Uma conta possui um número, um saldo, um status que informa se ela é especial ou não, um limite e um conjunto de movimentações.
+Uma movimentação possui uma descrição, um valor e uma informação se ela é uma movimentação de crédito, débito ou de rendimento financeiro.
+– Além disto as contas podem ser do tipo: Poupança, Conta-corrente, Fundos de Renda Fixa ou Fundos de Renda Variável. Dentre estes apenas os rendimentos
+de renda fixa e variável são tributados pelo IR, nestes casos deverá existir um método que calcula o valor do imposto devido com base no rendimento financeiro do mês e a alíquota de 27,5%.
+
++
+
+Desenvolva classes para testar o código desenvolvido utilizando reflexão. Deverá carregar as classes principais e imprimir nomes de todos os campos e métodos;
+– Além disso deverá invocar métodos do Banco para teste;
+– As classes a serem testadas devem ser carregadas a partir de um arquivo jar carregado em runtime.
+• Obs.: utilize JFileChooser para seleção do arquivo jar no início da execução.
+
+
+
+*Exercício 2:
+
+Modelar e implementar um sistema de representação de um imóvel juntamente com o cálculo de área total construída do imóvel, bem como o seu volume interno;
+– O imóvel deverá ter um conjunto de peças, sendo que cada uma deverá calcular a sua área com base nas formas geométricas que compõem a mesma;
+– Deverão existir as seguintes formas:
+• (semi)Círculo, quadrado, losango, retângulo e triângulo;
+• Cada forma deve contar com as medidas necessárias para implementar um método que calcula a sua área;
+– Cada peça deverá ter o seu pé-direito de forma que se possa calcular o volume da mesma;
+– Peças deverão ter identificação;
+– O imóvel deverá possuir identificação, tipo de uso (comercial, residencial), proprietário e endereço;
