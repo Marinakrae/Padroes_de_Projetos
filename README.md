@@ -12,14 +12,7 @@ de renda fixa e variável são tributados pelo IR, nestes casos deverá existir 
 
 <p>+ </p>
 
-<p>Desenvolva classes para testar o código desenvolvido utilizando reflexão. Deverá carregar as classes principais e imprimir nomes de todos os campos e métodos;<br>
-– Além disso deverá invocar métodos do Banco para teste;<br>
-– As classes a serem testadas devem ser carregadas a partir de um arquivo jar carregado em runtime.<br>
-  • Obs.: utilize JFileChooser para seleção do arquivo jar no início da execução.</p>
-
-<p>+ </p>
-
-<p> – Altere o exercício 2 e utilize Map para representar o
+<p> – Altere o exercício e utilize Map para representar o
 conjunto de contas existente no banco associado a cada
 identificador de conta. <br>
 – Desenvolva uma classe que crie 10.000 contas, inserindo
@@ -30,6 +23,14 @@ enquanto percorre novamente o mapa; <br>
 buscar todos os objetos em cada tipo de implementação
 diferente do Map. <p>
   
+ <p>+ </p>
+
+<p>Desenvolva classes para testar o código desenvolvido utilizando reflexão. Deverá carregar as classes principais e imprimir nomes de todos os campos e métodos;<br>
+– Além disso deverá invocar métodos do Banco para teste;<br>
+– As classes a serem testadas devem ser carregadas a partir de um arquivo jar carregado em runtime.<br>
+  • Obs.: utilize JFileChooser para seleção do arquivo jar no início da execução.</p>
+
+
 
   <h2>Exercício 2:</h2>
 
