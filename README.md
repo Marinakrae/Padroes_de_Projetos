@@ -1,7 +1,7 @@
-<bold> Padroes_de_Projetos <bold>
+<h1> Padroes_de_Projetos </h1>
 Exercícios desenvolvidos na disciplina de Padrões de Projeto
 
-  <b1>Exercício 1: </b1>
+  <h2>Exercício 1: </h2>
 
 <p>Crie uma classe banco que armazene um conjunto de contas e forneça métodos que permitam que sejam feitos criações de conta, exclusão de contas, saques (uma conta corrente só pode fazer saques desde que o valor não
 exceda o limite de saque -limite + saldo-), depósitos, emissão de saldo e extrato e transferência entre contas.
@@ -19,7 +19,7 @@ de renda fixa e variável são tributados pelo IR, nestes casos deverá existir 
 
 
 
-  <b1>Exercício 2:</b2>
+  <h2>Exercício 2:</h2>
 
 <p>Modelar e implementar um sistema de representação de um imóvel juntamente com o cálculo de área total construída do imóvel, bem como o seu volume interno;
 – O imóvel deverá ter um conjunto de peças, sendo que cada uma deverá calcular a sua área com base nas formas geométricas que compõem a mesma;
