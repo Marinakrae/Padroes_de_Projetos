@@ -12,7 +12,7 @@ de renda fixa e variável são tributados pelo IR, nestes casos deverá existir 
 
 <p>+ </p>
 
-<p> – Altere o exercício e utilize Map para representar o
+<p> Altere o exercício e utilize Map para representar o
 conjunto de contas existente no banco associado a cada
 identificador de conta. <br>
 – Desenvolva uma classe que crie 10.000 contas, inserindo
