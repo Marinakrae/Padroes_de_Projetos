@@ -3,18 +3,18 @@ Exercícios desenvolvidos na disciplina de Padrões de Projeto
 
   <h2>Exercício 1: </h2>
 
-<p>Crie uma classe banco que armazene um conjunto de contas e forneça métodos que permitam que sejam feitos criações de conta, exclusão de contas, saques (uma conta corrente só pode fazer saques desde que o valor não
-exceda o limite de saque -limite + saldo-), depósitos, emissão de saldo e extrato e transferência entre contas.
-– Uma conta possui um número, um saldo, um status que informa se ela é especial ou não, um limite e um conjunto de movimentações.
-Uma movimentação possui uma descrição, um valor e uma informação se ela é uma movimentação de crédito, débito ou de rendimento financeiro.
-– Além disto as contas podem ser do tipo: Poupança, Conta-corrente, Fundos de Renda Fixa ou Fundos de Renda Variável. Dentre estes apenas os rendimentos
-de renda fixa e variável são tributados pelo IR, nestes casos deverá existir um método que calcula o valor do imposto devido com base no rendimento financeiro do mês e a alíquota de 27,5%. </p>
+<p>Crie uma classe banco que armazene um conjunto de contas e forneça métodos que permitam que sejam feitos criações de conta, exclusão de contas, <br>
+  saques (uma conta corrente só pode fazer saques desde que o valor não exceda o limite de saque -limite + saldo-), depósitos, emissão de saldo e extrato e transferência entre contas.<br>
+– Uma conta possui um número, um saldo, um status que informa se ela é especial ou não, um limite e um conjunto de movimentações.<br>
+Uma movimentação possui uma descrição, um valor e uma informação se ela é uma movimentação de crédito, débito ou de rendimento financeiro.<br>
+– Além disto as contas podem ser do tipo: Poupança, Conta-corrente, Fundos de Renda Fixa ou Fundos de Renda Variável. Dentre estes apenas os rendimentos<br>
+de renda fixa e variável são tributados pelo IR, nestes casos deverá existir um método que calcula o valor do imposto devido com base no rendimento financeiro do mês <br> e a alíquota de 27,5%. </p>
 
-<br> + <br>
++
 
-<p>Desenvolva classes para testar o código desenvolvido utilizando reflexão. Deverá carregar as classes principais e imprimir nomes de todos os campos e métodos;
-– Além disso deverá invocar métodos do Banco para teste;
-– As classes a serem testadas devem ser carregadas a partir de um arquivo jar carregado em runtime.
+<p>Desenvolva classes para testar o código desenvolvido utilizando reflexão. Deverá carregar as classes principais e imprimir nomes de todos os campos e métodos;<br>
+– Além disso deverá invocar métodos do Banco para teste;<br>
+– As classes a serem testadas devem ser carregadas a partir de um arquivo jar carregado em runtime.<br>
   • Obs.: utilize JFileChooser para seleção do arquivo jar no início da execução.</p>
 
 
