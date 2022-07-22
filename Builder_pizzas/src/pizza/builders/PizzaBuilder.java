@@ -12,7 +12,7 @@ public class PizzaBuilder implements Builder{
     private Sabor sabor;
 
     public void setPizzaType(PizzaType type) {
-        this.pizzaType = type;
+        this.pizzaType = pizzaType;
     }
 
     @Override

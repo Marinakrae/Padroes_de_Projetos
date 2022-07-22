@@ -16,7 +16,7 @@ public class Demo {
         director.constructPizza(builder);
 
         Pizza pizza = builder.getResult();
-        System.out.println("Pizza montada:\n" + pizza.toString());
+        System.out.println("Pizza montada:\n" + pizza.getPizzaType());
 
     }
 
